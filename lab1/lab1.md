@@ -1,3 +1,5 @@
+Link to customer story : https://www.microsoft.com/en/customers/story/1412070689447388491-lhoist-manufacturing-defender-for-iot-security
+
 This is a interesting case study regarding azure defender IOT in geology domain, we are living in interesting times, because during the last decade connecting the computer to the internet was a security risk, and now we are using the security for the servers through the internet. Since, geological companies use lot of IOT devices to extract the data from available minerals on the earth, if one of there PLC goes down due to ransomware it certainly bring the whole network down, which would be a huge cost for the company, after the IT and OT team came on same page they decide to use the Azure Defender IOT to protect there network and IOT devices.
 So forom the company, perspective they are really concerned about the critical IOT and PLCs unit going down due to the security threat.
 

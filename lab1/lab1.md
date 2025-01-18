@@ -11,7 +11,8 @@ When it comes to the IT infrastructure, its best practice to analyse the _**netw
 Last but not the least the legacy infrastructure should also be supported.
 
 **Produce a RACI matrix for the migration stakeholders?**
-Ans: 
+Ans: ![image](https://github.com/user-attachments/assets/9b5df24b-e341-4fdc-a37a-1f2c4e5c97de)
+
 
 
 

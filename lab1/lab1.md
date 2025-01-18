@@ -16,3 +16,15 @@ Last but not the least the legacy infrastructure should also be supported.
 
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------A hybrid cloud migration approach is the most suitable strategy for Lhoist as it allows them to maintain control over their critical OT systems while taking full advantage of cloud-based security, analytics, and scalability. This type of migration approach supports Lhoist’s need to maintain operational continuity, optimize security and performance, and adapt to changing business requirements in a flexible and cost-effective way. By leveraging the power of the cloud while retaining critical OT systems on-premises, Lhoist can modernize its infrastructure while mitigating risks associated with digital transformation.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Planning strategy :
+1. Assessing the current IT and OT infrastructure
+2. Identifying the workloads for migration (IT vs. OT)
+3. Set up a steering committee with IT, OT, and security teams
+4. Defining the scope, and success criteria for the migration
+   
+This high-level schedule ensures that Lhoist can migrate to the cloud in an organized way, reducing the risks while also benefiting from the cloud capabilities like enhanced security, scalability, and operational efficiency. Each phase is carefully planned to include stakeholders, also testing, optimization, and training are necessary for guaranteed smooth transition.
+   

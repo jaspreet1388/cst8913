@@ -6,18 +6,8 @@ IAAS model gives more flexcibility to the customers because servers, storage and
 
 So, for a IAAS model the above scenario could be described as :
 **IaaS Architecture Diagram:**
-+-------------------+           +------------------------+           +------------------------------+
-|  User's Device    |           |  Azure Load Balancer   |           |     Azure Cloud Provider     |
-|  (Browser)        |  <----->  |                        |           |  - Azure VMs (Web Servers)   |
-|                   |           |                        |           |  - Azure VMs (PostgreSQL)    |
-+-------------------+           +------------------------+           |  - Azure Blob Storage        |
-       |                                    |                        |  - Virtual Network           |
-       v                                    v                        +------------------------------+
-  React Frontend                   Azure VM (Flask Web App)       +----------------------------+
-  (Azure CDN / Static Hosting)      (Flask on IaaS VM)            |  Azure VM (PostgreSQL DB)  |
-       |                                    |                     |  (PostgreSQL on VM)        |
-       v                                    v                     +----------------------------+
-Azure Blob Storage              Azure Storage (Static Files) 
+![image](https://github.com/user-attachments/assets/3d0bd365-4fcf-4e87-a7c2-c3c232a84605)
+
 
 **Steps for the above IAAS plan could be simplied as :**
 1. **User’s Device** ( Web Browser):

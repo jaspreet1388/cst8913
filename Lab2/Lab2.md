@@ -14,7 +14,7 @@ As far as PAAS model is concerned, we can run the flask web application using th
 
 So, for a IAAS model the above scenario could be described as :
 
-**IaaS Architecture Diagram:**
+**IaaS Architecture Diagram for the above scenario :**
 ![image](https://github.com/user-attachments/assets/3d0bd365-4fcf-4e87-a7c2-c3c232a84605)
 
 
@@ -30,12 +30,14 @@ So, for a IAAS model the above scenario could be described as :
 
 4. **Azure Virtual Machines (VMs):**
     **Flask Web Server**: Flask application is deployed on Azure VMs. We have to configure, patch, and scale these VMs manually.
+   
     **PostgreSQL Database on VM**: PostgreSQL database is also running on an Azure VM, and database management including backups and scaling should be handled by the customer.
+   
     **Azure Blob Storage**: Used for storing  files like images, media and other supporting documents . This is a scalable and secure service for web pages and other supporting data.
 
 
 
-   **Coming to the PAAS architecture:**
+   **Coming to the PAAS architecture for the above scenario:**
    
    We can make the PAAS architecture for above scenario as :
    ![image](https://github.com/user-attachments/assets/8d577f36-2935-497c-93ce-c86d35ceb0dd)

@@ -16,7 +16,7 @@ So, for a IAAS model the above scenario could be described as :
 ![image](https://github.com/user-attachments/assets/3d0bd365-4fcf-4e87-a7c2-c3c232a84605)
 
 
-**Steps for the above PAAS plan could be simplied as :**
+**Steps for the above IAAS plan could be simplied as :**
 1. **User’s Device** ( Web Browser):
     The user accesses the application through their browser.
 
@@ -39,7 +39,7 @@ So, for a IAAS model the above scenario could be described as :
 
 
    
-**Steps for the above IAAS plan could be simplied as :**
+**Steps for the above PAAS plan could be simplied as :**
 1. **User’s Device (Browser):**
    The user accesses the application via their browser.
 

@@ -37,6 +37,8 @@ So, for a IAAS model the above scenario could be described as :
 
 
 
+
+
    **Coming to the PAAS architecture for the above scenario:**
    
    We can make the PAAS architecture for above scenario as :

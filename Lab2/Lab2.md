@@ -13,6 +13,7 @@ As far as PAAS model is concerned, we can run the flask web application using th
 3.**For each case, draw a diagram that represents the target architecture and describe each of the chosen cloud components**
 
 So, for a IAAS model the above scenario could be described as :
+
 **IaaS Architecture Diagram:**
 ![image](https://github.com/user-attachments/assets/3d0bd365-4fcf-4e87-a7c2-c3c232a84605)
 
@@ -35,12 +36,14 @@ So, for a IAAS model the above scenario could be described as :
 
 
    **Coming to the PAAS architecture:**
+   
    We can make the PAAS architecture for above scenario as :
    ![image](https://github.com/user-attachments/assets/8d577f36-2935-497c-93ce-c86d35ceb0dd)
 
 
    
 **Steps for the above PAAS plan could be simplied as :**
+
 1. **User’s Device (Browser):**
    The user accesses the application via their browser.
 

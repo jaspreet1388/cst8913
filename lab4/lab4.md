@@ -10,10 +10,10 @@
 
 
 
-**2. Description of the target architecture **
+**2. Description of the target architecture**
 ******************************************
 Key features:
-***************
+*************
 **2.1. Multi-region deployment:**
 *****************************
     - The application is deployed in two regions(Region A and Region B) for high availability

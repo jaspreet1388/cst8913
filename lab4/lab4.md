@@ -7,6 +7,8 @@
 
 **1. Solution Diagram**
 ********************
+![image](https://github.com/user-attachments/assets/7cb16861-e427-46e7-8263-bcf782f6c4ea)
+
 
 
 
@@ -16,19 +18,19 @@ Key features:
 *************
 **2.1. Multi-region deployment:**
 *****************************
-    - The application is deployed in two regions(Region A and Region B) for high availability
+    - The application is deployed in two regions(Region A and Region B) for the high level availability
     - Each region has its own load balancer to distribute traffic within the region
     
 **2.2. Redundancy:** 
 ***************
-    - Each VM(WebServer VM and SQLVM) is replicated in a secondary region to ensure failover capabilities
+    - Each VM(WebServer VM and SQLVM) is replicated in a secondary region to ensure failover
     
 **2.3. Load balancing:**
 *********************
-    - a "Global Load Balancer" is used to direct traffic to the healthiest web server in the primary region. It the traffic fails,traffic is directed to the second region.
+    - a "Global Load Balancer" is used to direct traffic to the working  web server in the primary region. It the traffic fails, traffic is redirected to the secondary region.
 **2.4. Database replication:**
 **************************
-    - The SQL database will use geo-replication with automatic failover to maintain data integrity.
+    - The SQL database will also use geo-replication with automatic failover to maintain data integrity.
 **2.5. Failover mechanism:**
 *************************
     - If the primary region fails, application traffic and database requests will be directed to the secondary region

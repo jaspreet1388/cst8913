@@ -7,7 +7,7 @@ Lab 4: Cloud Resource Comparison Across AWS, Azure, and Google Cloud
 | 2  | An object storage service used to store and retrieve data, commonly used for backups and static website content | Amazon S3(Sinple Storage service) | Azure Blob Storage | Google Cloud Storage |
 | 3  | A managed relational database service that supports multiple database engines like MySQL, PostgreSQL, and SQL Server. | Amazon RDS (Relational Database Service) | Azure SQL Database | Cloud SQL |
 | 4  | A serverless compute service that allows you to run code in response to events without provisioning or managing servers. | AWS Lambda | Azure Functions | Cloud Functions |
-| 5  | A virtual private network service that allows you to create isolated networks within the cloud provider's infrastructure. | Amazon VPC | Azure Virtual Network | Virtual Private Cloud (VPC) |
+| 5  | A virtual private network service that allows you to create isolated networks within the cloud provider's infrastructure. | Amazon VPC (Virtual Private Cloud) | Azure Virtual Network | Google Cloud Virtual Private Cloud (VPC) |
 | 6  | A content delivery network (CDN) service that delivers data, videos, applications, and APIs to customers around the world with low latency. | Amazon CloudFront | Azure CDN | Cloud CDN |
 | 7  | A managed NoSQL database service designed for low-latency, high-scale applications. | Amazon DynamoDB | Azure Cosmos DB | Cloud Firestore |
 | 8  | A block storage service for use with virtual machines, offering persistent storage for data. | Amazon EBS | Azure Disk Storage | Persistent Disk |

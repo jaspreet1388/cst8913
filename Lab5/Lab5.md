@@ -31,5 +31,5 @@ Lab 4: Cloud Resource Comparison Across AWS, Azure, and Google Cloud
 | 26 | A backup and disaster recovery service that helps to protect your data by creating backups and replicas of your cloud resources. | AWS Backup | Azure Backup & Site Recovery| Backup and DR Service |
 | 27 | A service designed for big data analytics, allowing organizations to store, process, and analyze large datasets in real time. | AWS EMR(Elastic Map Reduce) | Azure HDInsight | Dataproc |
 | 28 | A file storage service for storing and sharing files with users, typically used in shared file systems across applications. | Amazon EFS | Azure Files | Filestore |
-| 29 | A service that helps you transcode, process, and stream media content such as video and audio. | AWS Elemental MediaConvert | Azure Media Services | Transcoder API |
-| 30 | A real-time communication service used for sending notifications, emails, and text messages to users and devices. | Amazon SNS | Azure Notification Hubs | Firebase Cloud Messaging (FCM) |
+| 29 | A service that helps you transcode, process, and stream media content such as video and audio. | AWS Elemental Media Services | Azure Media Services | Transcoder API & Media streaming|
+| 30 | A real-time communication service used for sending notifications, emails, and text messages to users and devices. | Amazon SNS | Azure Notification Hubs | Firebase Cloud Messaging (FCM) & Pub/Sub |

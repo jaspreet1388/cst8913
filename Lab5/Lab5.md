@@ -19,7 +19,7 @@ Lab 4: Cloud Resource Comparison Across AWS, Azure, and Google Cloud
 | 14 | A load balancing service that distributes incoming network traffic across multiple targets, improving application availability. | Elastic Load Balancing (ELB) | Azure Load Balancer | Cloud Load Balancing |
 | 15 | A service that automatically scales your cloud infrastructure based on demand, ensuring resources are available as needed. | AWS Auto Scaling | Azure Autoscale & Azure Virtual Machine Scale sets | Managed Instance Groups |
 | 16 | A message queuing service that enables applications to send and receive messages between different components. | Amazon SQS | Azure Service Bus | Pub/Sub |
-| 17 | A managed real-time data streaming service that collects and processes large amounts of data from various sources. | Amazon Kinesis | Azure Event Hubs | Cloud Dataflow |
+| 17 | A managed real-time data streaming service that collects and processes large amounts of data from various sources. | Amazon Kinesis | Azure Event Hubs | Cloud Dataflow & Pub/Sub|
 | 18 | A fully managed, highly scalable data warehouse service optimized for analytics and large-scale queries. | Amazon Redshift | Azure Synapse Analytics | BigQuery |
 | 19 | A service that automates the execution of workflows and allows the integration of different cloud services in a sequence of steps. | AWS Step Functions | Azure Logic Apps | Google Cloud Workflows |
 | 20 | A service that integrates multiple data sources and enables data migration, transformation, and movement across platforms. | AWS Glue | Azure Data Factory | Data Fusion |

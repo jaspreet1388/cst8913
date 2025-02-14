@@ -12,7 +12,7 @@ Lab 4: Cloud Resource Comparison Across AWS, Azure, and Google Cloud
 | 7  | A managed NoSQL database service designed for low-latency, high-scale applications. | Amazon DynamoDB | Azure Cosmos DB | Cloud Firestore |
 | 8  | A block storage service for use with virtual machines, offering persistent storage for data. | Amazon EBS(Elastic Block Store) | Azure Managed Disks | Persistent Disk |
 | 9  | A managed container orchestration service based on Kubernetes. | Amazon EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine (GKE) |
-| 10 | A service for managing user access and encryption keys to secure cloud resources. | AWS IAM | Azure Active Directory| Cloud IAM |
+| 10 | A service for managing user access and encryption keys to secure cloud resources. | AWS IAM & KMS| Azure Active Directory(AD) & Key Vault| Cloud IAM & Cloud KMS |
 | 11 | A platform that automates application deployment and scaling without needing to manage infrastructure. | AWS Elastic Beanstalk | Azure App Service | Google App Engine |
 | 12 | A service that provides monitoring and logging of applications and infrastructure, offering insights into resource usage and performance. | Amazon CloudWatch | Azure Monitor | Cloud Monitoring |
 | 13 | A domain name system (DNS) service that routes traffic globally and translates domain names to IP addresses. | Amazon Route 53 | Azure DNS | Cloud DNS |

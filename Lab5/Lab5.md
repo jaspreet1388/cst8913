@@ -22,7 +22,7 @@ Lab 4: Cloud Resource Comparison Across AWS, Azure, and Google Cloud
 | 17 | A managed real-time data streaming service that collects and processes large amounts of data from various sources. | Amazon Kinesis | Azure Event Hubs | Cloud Dataflow & Pub/Sub|
 | 18 | A fully managed, highly scalable data warehouse service optimized for analytics and large-scale queries. | Amazon Redshift | Azure Synapse Analytics | BigQuery |
 | 19 | A service that automates the execution of workflows and allows the integration of different cloud services in a sequence of steps. | AWS Step Functions | Azure Logic Apps | Google Cloud Workflows |
-| 20 | A service that integrates multiple data sources and enables data migration, transformation, and movement across platforms. | AWS Glue | Azure Data Factory | Data Fusion |
+| 20 | A service that integrates multiple data sources and enables data migration, transformation, and movement across platforms. | AWS Glue | Azure Data Factory | Cloud Data Fusion |
 | 21 | A data catalog and governance service that helps manage metadata across your data estate, supporting compliance and security. | AWS Data Catalog | Azure Purview | Data Catalog |
 | 22 | A set of machine learning and AI services that provide pre-built models, APIs, and tools for developers to easily implement AI in their apps. | Amazon SageMaker | Azure Machine Learning | Vertex AI |
 | 23 | A service that allows you to define and deploy infrastructure using code, automating the management of cloud resources. | AWS CloudFormation | Azure Resource Manager (ARM) | Terraform / Deployment Manager |

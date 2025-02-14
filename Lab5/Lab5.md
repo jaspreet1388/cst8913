@@ -24,7 +24,7 @@ Lab 4: Cloud Resource Comparison Across AWS, Azure, and Google Cloud
 | 19 | A service that automates the execution of workflows and allows the integration of different cloud services in a sequence of steps. | AWS Step Functions | Azure Logic Apps | Google Cloud Workflows |
 | 20 | A service that integrates multiple data sources and enables data migration, transformation, and movement across platforms. | AWS Glue | Azure Data Factory | Cloud Data Fusion |
 | 21 | A data catalog and governance service that helps manage metadata across your data estate, supporting compliance and security. | AWS Data Catalog | Azure Purview | Data Catalog |
-| 22 | A set of machine learning and AI services that provide pre-built models, APIs, and tools for developers to easily implement AI in their apps. | Amazon SageMaker | Azure Machine Learning | Vertex AI |
+| 22 | A set of machine learning and AI services that provide pre-built models, APIs, and tools for developers to easily implement AI in their apps. | Amazon SageMaker & AI services | Azure Machine Learning | Vertex AI |
 | 23 | A service that allows you to define and deploy infrastructure using code, automating the management of cloud resources. | AWS CloudFormation | Azure Resource Manager (ARM) | Terraform / Deployment Manager |
 | 24 | A fully managed CI/CD service that automates the building, testing, and deployment of applications to production environments. | AWS CodePipeline | Azure DevOps | Cloud Build |
 | 25 | A desktop as a service (DaaS) offering that allows you to deploy virtual desktops in the cloud and access them remotely. | Amazon WorkSpaces | Azure Virtual Desktop | Virtual Desktops |

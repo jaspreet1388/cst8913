@@ -10,7 +10,7 @@ Lab 4: Cloud Resource Comparison Across AWS, Azure, and Google Cloud
 | 5  | A virtual private network service that allows you to create isolated networks within the cloud provider's infrastructure. | Amazon VPC (Virtual Private Cloud) | Azure Virtual Network | Google Cloud Virtual Private Cloud (VPC) |
 | 6  | A content delivery network (CDN) service that delivers data, videos, applications, and APIs to customers around the world with low latency. | Amazon CloudFront | Azure CDN | Cloud CDN |
 | 7  | A managed NoSQL database service designed for low-latency, high-scale applications. | Amazon DynamoDB | Azure Cosmos DB | Cloud Firestore |
-| 8  | A block storage service for use with virtual machines, offering persistent storage for data. | Amazon EBS | Azure Disk Storage | Persistent Disk |
+| 8  | A block storage service for use with virtual machines, offering persistent storage for data. | Amazon EBS(Elastic Block Store) | Azure Disk Storage | Persistent Disk |
 | 9  | A managed container orchestration service based on Kubernetes. | Amazon EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine (GKE) |
 | 10 | A service for managing user access and encryption keys to secure cloud resources. | AWS IAM | Azure Active Directory| Cloud IAM |
 | 11 | A platform that automates application deployment and scaling without needing to manage infrastructure. | AWS Elastic Beanstalk | Azure App Service | Google App Engine |

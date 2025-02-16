@@ -1,5 +1,5 @@
-Lab 4: Cloud Resource Comparison Across AWS, Azure, and Google Cloud
-********************************************************************
+Cloud Migration Lab 5: Cloud Resource Comparison Across AWS, Azure, and Google Cloud
+*************************************************************************************
 
 | #  | Description | AWS (Service Name) | Azure (Service Name) | Google Cloud (Service Name) |
 |----|-------------|--------------------|----------------------|--------------------------|

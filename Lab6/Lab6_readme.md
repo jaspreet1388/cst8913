@@ -71,19 +71,19 @@ Azure Managed Identity will be used to enable secure, passwordless authenticatio
 Ensures no hardcoded credentials in the application.
 
 **Next Steps for Implementation:**
- **Step 1**: Migrate the frontend to Azure App Service (Static Web Apps)
+ **Step 1**: Migrating the frontend to Azure App Service (Static Web Apps)
  
- **Step 2**: Deploy the API separately to Azure App Service (API Backend)
+ **Step 2**: Deploying the API separately to Azure App Service (API Backend)
  
- **Step 3:** Migrate SQL Server database to Azure SQL Database
+ **Step 3:** Migrating the SQL Server database to Azure SQL Database
  
- **Step 4**: Convert background jobs to Azure Functions
+ **Step 4**: Converting the  background jobs to Azure Functions
  
- **Step 5**: Move static content to Azure Blob Storage
+ **Step 5**: Moving the static content to Azure Blob Storage
  
- **Step 6**: Implement authentication using Azure AD
+ **Step 6**: Implementing the authentication using Azure AD
  
- **Step 7**: Set up monitoring with Azure Monitor & Application Insights
+ **Step 7**: Setting up the monitoring with Azure Monitor & Application Insights
 
  The justificable reason for the azure cloud services is : 
  

@@ -46,7 +46,7 @@ Each microservice will run independently and communicate using REST APIs, Azure 
 2. Select Azure Services for Migration
 Each component of the monolithic app will be replaced with Azure-native services to enhance scalability, performance, and cost efficiency.
 
-Service Mapping:
+**Service Mapping:**
 Functionality	Current Monolithic Implementation	Refactored Azure Service	Key Benefits
 Frontend Hosting inside the VM	Azure App Service (Static Web Apps)	Managed hosting, auto-scaling
 Backend Hosting	ASP.NET API running in the VM	Azure App Service (API Backend), auto-scaling

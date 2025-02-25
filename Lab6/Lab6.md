@@ -86,8 +86,6 @@ graph TD;
         MonolithicApp -->|Runs| BackgroundTasks[Scheduled Tasks & Windows Services]
         MonolithicApp -->|Stores| LocalStorage[Static Files & Logs]
     end
-
-
     
     subgraph Modern_Cloud_Native_Architecture
         AppService[Azure App Service] -->|Hosts| Frontend[Frontend]
@@ -99,5 +97,7 @@ graph TD;
         Backend -->|Stores| BlobStorage[Azure Blob Storage]
         Backend -->|Logs to| Monitor[Azure Monitor & App Insights]
     end
+    
+    Legacy_Monolithic_Architecture -->|Migration| Modern_Cloud_Native_Architecture
     
   

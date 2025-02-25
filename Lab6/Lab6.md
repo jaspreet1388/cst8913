@@ -35,6 +35,7 @@ graph TD;
 
 
 
+
 **Task2: Refactoring Strategy for Migration**
 The purpose of this  refactoring is to transition the monolithic web application running on an Azure Virtual Machine (VM) into a  scalable, resilient, and cost-efficient cloud-native architecture using Azure services.
 

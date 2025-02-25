@@ -1,9 +1,9 @@
 **Lab 6 - Refactoring a Legacy Application for Cloud-Native Deployment on Azure**
 
-**Scenario:** A company is currently running a monolithic web application on a Windows Server 2019 virtual machine (VM) hosted in Azure. The company wants to modernize the application by refactoring it into a cloud-native solution that leverages Azure services.
+**Scenario:** A company specialising in routers want to adopt the openwrt platform, currently they are  running a monolithic web application on a Windows Server 2019 virtual machine (VM) hosted in Azure. The company wants to modernize the application by refactoring it into a cloud-native solution that leverages Azure services.
 
-**Task1:** **Assessing the Existing Architecture**
-The legacy monolithic application consists of  components running on a single Windows Server 2019 VM. The key components of legacy architecture are:
+**Assessing the Existing Architecture**
+The legacy monolithic application of router platform consists of  components running on a single Windows Server 2019 VM. The key components of legacy architecture are:
 
 **Web Layer** (Frontend + Backend in a Single Codebase)
 
@@ -25,7 +25,7 @@ Application logs stored on local disk and local servers, making monitoring and t
 
 
 
-**Task2: Refactoring Strategy for Migration**
+**Refactoring Strategy for Migration**
 The purpose of this  refactoring is to transition the monolithic web application running on an Azure Virtual Machine (VM) into a  scalable, resilient, and cost-efficient cloud-native architecture using Azure services.
 
 1. Break Down the Monolithic Application into Microservices

@@ -48,13 +48,14 @@ Each component of the monolithic app will be replaced with Azure-native services
 
 Service Mapping:
 Functionality	Current Monolithic Implementation	Refactored Azure Service	Key Benefits
-Frontend Hosting	Hosted inside the VM	Azure App Service (Static Web Apps)	Managed hosting, auto-scaling
-Backend Hosting	ASP.NET API running in the VM	Azure App Service (API Backend)	Decoupled backend, auto-scaling
-Database	SQL Server on VM	Azure SQL Database	Fully managed, high availability, backup support
-Background Jobs	Windows Services / Task Scheduler	Azure Functions (Timer/Event Triggered)	Serverless execution, cost-effective
-File Storage	Stored on VM disk	Azure Blob Storage	Scalable, cost-effective, high durability
+Frontend Hosting inside the VM	Azure App Service (Static Web Apps)	Managed hosting, auto-scaling
+Backend Hosting	ASP.NET API running in the VM	Azure App Service (API Backend), auto-scaling
+Database	could be fully managed on SQL Server on VM	Azure SQL Database, high availability, backup support
+Background Jobs	Windows Services / Task Scheduler	could be implemented on Azure Functions (Timer/Event Triggered)	Serverless execution, cost-effective
+azure blob File Storage	could be used to Store the static content, cost-effective, high durability
 Authentication	Custom user authentication in the app	Azure Active Directory (Azure AD) & Managed Identity	Secure authentication with SSO
 Logging & Monitoring	Logs stored in local files	Azure Monitor & Application Insights	Centralized, real-time monitoring
+
 3. Authentication and Authorization Strategy Using Azure AD
 A robust authentication and authorization strategy ensures secure access to microservices.
 

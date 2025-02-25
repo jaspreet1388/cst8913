@@ -2,9 +2,8 @@
 
 **Scenario:** A company is currently running a monolithic web application on a Windows Server 2019 virtual machine (VM) hosted in Azure. The company wants to modernize the application by refactoring it into a cloud-native solution that leverages Azure services.
 
-**Task1:** **Assess the Existing Architecture**
-Identifying & Determining Monolithic Components of the Application
-The legacy monolithic application consists of  components running on a single Windows Server 2019 VM. The key components are:
+**Task1:** **Assessing the Existing Architecture**
+The legacy monolithic application consists of  components running on a single Windows Server 2019 VM. The key components of legacy architecture are:
 
 **Web Layer** (Frontend + Backend in a Single Codebase)
 
@@ -21,8 +20,18 @@ Windows Scheduled Tasks or Windows Services for batch jobs, email notifications,
 Runs as part of the monolithic application, making scaling difficult.
 Static File Storage & Logging
 
-Static content (images, CSS, JS etc) stored locally on the VM.
+**Static content** (images, CSS, JS etc) stored locally on the VM.
 Application logs stored on local disk and local servers, making monitoring and troubleshooting difficult.
+
+```mermaid
+graph TD;
+    
+    subgraph Legacy_Monolithic_Architecture
+        VM[Windows Server 2019 VM] -->|Hosts| MonolithicApp[Monolithic Web App]
+        MonolithicApp -->|Uses| VM_SQL[SQL Server on VM]
+        MonolithicApp -->|Runs| BackgroundTasks[Scheduled Tasks & Windows Services]
+        MonolithicApp -->|Stores| LocalStorage[Static Files & Logs]
+    end
 
 **Task2: Refactoring Strategy for Migration**
 The purpose of this  refactoring is to transition the monolithic web application running on an Azure Virtual Machine (VM) into a  scalable, resilient, and cost-efficient cloud-native architecture using Azure services.
@@ -75,15 +84,7 @@ Next Steps for Implementation:
 
 This approach ensures a scalable, resilient, and cost-optimized solution.
 
-```mermaid
-graph TD;
-    
-    subgraph Legacy_Monolithic_Architecture
-        VM[Windows Server 2019 VM] -->|Hosts| MonolithicApp[Monolithic Web App]
-        MonolithicApp -->|Uses| VM_SQL[SQL Server on VM]
-        MonolithicApp -->|Runs| BackgroundTasks[Scheduled Tasks & Windows Services]
-        MonolithicApp -->|Stores| LocalStorage[Static Files & Logs]
-    end
+
     
     subgraph Modern_Cloud_Native_Architecture
         AppService[Azure App Service] -->|Hosts| Frontend[Frontend]

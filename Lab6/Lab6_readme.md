@@ -74,6 +74,7 @@ Azure Managed Identity will be used to enable secure, passwordless authenticatio
 Ensures no hardcoded credentials in the application.
 
 **Next Steps for Implementation:**
+
  **Step 1**: Migrating the frontend to Azure App Service (Static Web Apps)
  
  **Step 2**: Deploying the API separately to Azure App Service (API Backend)

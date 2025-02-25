@@ -59,10 +59,11 @@ Logging & Monitoring	Logs stored in local files	Azure Monitor & Application Insi
 3. Authentication and Authorization Strategy Using Azure AD
 A robust authentication and authorization strategy ensures secure access to microservices.
 
-Frontend Authentication
+**Frontend Authentication**
 Users authenticate using Azure AD B2C (for customer access) or Azure AD Enterprise SSO (for internal users).
 Supports OAuth 2.0, OpenID Connect, SAML, and Multi-Factor Authentication (MFA).
-API Authorization
+
+**API Authorization**
 Azure AD tokens are required for accessing backend APIs securely.
 Role-Based Access Control (RBAC) will be applied to control access based on user roles.
  Secure Service Communication

@@ -66,17 +66,18 @@ Supports OAuth 2.0, OpenID Connect, SAML, and Multi-Factor Authentication (MFA).
 **API Authorization**
 Azure AD tokens are required for accessing backend APIs securely.
 Role-Based Access Control (RBAC) will be applied to control access based on user roles.
- Secure Service Communication
+ **Secure Service Communication**
 Azure Managed Identity will be used to enable secure, passwordless authentication between services (e.g., API → Azure SQL, API → Azure Blob Storage).
 Ensures no hardcoded credentials in the application.
-Next Steps for Implementation:
- Step 1: Migrate the frontend to Azure App Service (Static Web Apps)
- Step 2: Deploy the API separately to Azure App Service (API Backend)
- Step 3: Migrate SQL Server database to Azure SQL Database
- Step 4: Convert background jobs to Azure Functions
- Step 5: Move static content to Azure Blob Storage
- Step 6: Implement authentication using Azure AD
- Step 7: Set up monitoring with Azure Monitor & Application Insights
+
+**Next Steps for Implementation:**
+ **Step 1**: Migrate the frontend to Azure App Service (Static Web Apps)
+ **Step 2**: Deploy the API separately to Azure App Service (API Backend)
+ **Step 3:** Migrate SQL Server database to Azure SQL Database
+ **Step 4**: Convert background jobs to Azure Functions
+ **Step 5**: Move static content to Azure Blob Storage
+ **Step 6**: Implement authentication using Azure AD
+ **Step 7**: Set up monitoring with Azure Monitor & Application Insights
 
  The reason we can use the azure cloud services is : 
  

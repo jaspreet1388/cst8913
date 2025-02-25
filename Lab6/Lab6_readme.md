@@ -47,7 +47,6 @@ Each microservice will run independently and communicate using REST APIs, Azure 
 Each component of the monolithic app will be replaced with Azure-native services to enhance scalability, performance, and cost efficiency.
 
 **Service Mapping:**
-### **Service Mapping: Monolithic vs. Refactored Azure Implementation**
 
 | **Functionality**      | **Current Monolithic Implementation**     | **Refactored Azure Service**                         | **Key Benefits** |
 |----------------------|-----------------------------------|------------------------------------------|--------------|

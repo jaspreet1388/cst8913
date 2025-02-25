@@ -23,7 +23,6 @@ Static File Storage & Logging
 **Static content** (images, CSS, JS etc) stored locally on the VM.
 Application logs stored on local disk and local servers, making monitoring and troubleshooting difficult.
 
-```mermaid
 graph TD;
     
     subgraph Legacy_Monolithic_Architecture
@@ -32,6 +31,7 @@ graph TD;
         MonolithicApp -->|Runs| BackgroundTasks[Scheduled Tasks & Windows Services]
         MonolithicApp -->|Stores| LocalStorage[Static Files & Logs]
     end
+
 
 **Task2: Refactoring Strategy for Migration**
 The purpose of this  refactoring is to transition the monolithic web application running on an Azure Virtual Machine (VM) into a  scalable, resilient, and cost-efficient cloud-native architecture using Azure services.
@@ -97,4 +97,4 @@ This approach ensures a scalable, resilient, and cost-optimized solution.
         Backend -->|Logs to| Monitor[Azure Monitor & App Insights]
     end
     
-    Legacy_Monolithic_Architecture -->|Migration| Modern_Cloud_Native_Architecture
+  

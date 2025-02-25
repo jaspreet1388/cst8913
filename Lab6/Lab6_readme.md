@@ -72,14 +72,20 @@ Ensures no hardcoded credentials in the application.
 
 **Next Steps for Implementation:**
  **Step 1**: Migrate the frontend to Azure App Service (Static Web Apps)
+ 
  **Step 2**: Deploy the API separately to Azure App Service (API Backend)
+ 
  **Step 3:** Migrate SQL Server database to Azure SQL Database
+ 
  **Step 4**: Convert background jobs to Azure Functions
+ 
  **Step 5**: Move static content to Azure Blob Storage
+ 
  **Step 6**: Implement authentication using Azure AD
+ 
  **Step 7**: Set up monitoring with Azure Monitor & Application Insights
 
- The reason we can use the azure cloud services is : 
+ The justificable reason for the azure cloud services is : 
  
 **Azure App Service:** It provides a fully managed platform with built-in scaling, security, and CI/CD integration, reducing the need for VM management.
 

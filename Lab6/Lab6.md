@@ -23,6 +23,7 @@ Static File Storage & Logging
 **Static content** (images, CSS, JS etc) stored locally on the VM.
 Application logs stored on local disk and local servers, making monitoring and troubleshooting difficult.
 
+```mermaid
 graph TD;
     
     subgraph Legacy_Monolithic_Architecture
@@ -31,6 +32,7 @@ graph TD;
         MonolithicApp -->|Runs| BackgroundTasks[Scheduled Tasks & Windows Services]
         MonolithicApp -->|Stores| LocalStorage[Static Files & Logs]
     end
+
 
 
 **Task2: Refactoring Strategy for Migration**

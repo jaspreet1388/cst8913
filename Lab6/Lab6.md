@@ -33,12 +33,14 @@ The existing monolithic system consists of a UI, API, background tasks, database
 
 Microservices Breakdown:
 Monolithic Component	Microservice	Technology / Service
-Frontend UI & API together	Frontend UI	Azure App Service (Static Web Apps)
-Backend API (Business Logic & Data Access Layer)	API Service	Azure App Service (API Backend)
-SQL Server (Database)	Database Service	Azure SQL Database
-Background Jobs (Scheduled Tasks & Windows Services)	Background Processing	Azure Functions (Event-driven)
-Static File Storage (On VM)	Storage Service	Azure Blob Storage
-Logging (Stored Locally in Text Files)	Monitoring & Logging	Azure Monitor & Application Insights
+
+1. Frontend UI & API together can moved to Frontend UI	Azure App Service (Static Web Apps)
+
+2. Backend API (Business Logic & Data Access Layer) could be moved to API Service	Azure App Service (API Backend)
+3. SQL Server (Database)	Database Service could be moved  to Azure SQL Database
+4. Background Jobs (Scheduled Tasks & Windows Services)	Background Processing can be moved to Azure Functions (Event-driven)
+5. Static File Storage (On VM) could be moved to microsoft Storage Service like Azure Blob Storage
+6. Logging and monitoring could be moved to Azure Monitor & Application Insights
 Each microservice will run independently and communicate using REST APIs, Azure Service Bus, or Event Grid.
 
 2. Select Azure Services for Migration

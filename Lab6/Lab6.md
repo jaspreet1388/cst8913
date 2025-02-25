@@ -23,19 +23,6 @@ Static File Storage & Logging
 **Static content** (images, CSS, JS etc) stored locally on the VM.
 Application logs stored on local disk and local servers, making monitoring and troubleshooting difficult.
 
-```mermaid
-graph TD;
-    
-    subgraph Legacy_Monolithic_Architecture
-        VM[Windows Server 2019 VM] -->|Hosts| MonolithicApp[Monolithic Web App]
-        MonolithicApp -->|Uses| VM_SQL[SQL Server on VM]
-        MonolithicApp -->|Runs| BackgroundTasks[Scheduled Tasks & Windows Services]
-        MonolithicApp -->|Stores| LocalStorage[Static Files & Logs]
-    end
-
-
-
-<br>
 
 
 **Task2: Refactoring Strategy for Migration**
@@ -88,6 +75,17 @@ Next Steps for Implementation:
 ✅ Step 7: Set up monitoring with Azure Monitor & Application Insights
 
 This approach ensures a scalable, resilient, and cost-optimized solution.
+
+
+```mermaid
+graph TD;
+    
+    subgraph Legacy_Monolithic_Architecture
+        VM[Windows Server 2019 VM] -->|Hosts| MonolithicApp[Monolithic Web App]
+        MonolithicApp -->|Uses| VM_SQL[SQL Server on VM]
+        MonolithicApp -->|Runs| BackgroundTasks[Scheduled Tasks & Windows Services]
+        MonolithicApp -->|Stores| LocalStorage[Static Files & Logs]
+    end
 
 
     

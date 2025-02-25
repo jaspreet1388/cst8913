@@ -84,8 +84,9 @@ Ensures no hardcoded credentials in the application.
  **Step 6**: Implementing the authentication using Azure AD
  
  **Step 7**: Setting up the monitoring with Azure Monitor & Application Insights
+ 
 
- The justificable reason for the azure cloud services is : 
+ **The justificable reason for the azure cloud services is** : 
  
 **Azure App Service:** It provides a fully managed platform with built-in scaling, security, and CI/CD integration, reducing the need for VM management.
 

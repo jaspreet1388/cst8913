@@ -76,6 +76,20 @@ Next Steps for Implementation:
  Step 6: Implement authentication using Azure AD
  Step 7: Set up monitoring with Azure Monitor & Application Insights
 
+ The reason we can use the azure cloud services is : 
+ 
+**Azure App Service:** It provides a fully managed platform with built-in scaling, security, and CI/CD integration, reducing the need for VM management.
+
+**Azure SQL Database:** It provides a managed database service that offers automated backups, high availability, and performance tuning.
+
+**Azure Functions:** It enables serverless execution of background tasks, reducing operational overhead and scaling based on demand.
+
+**Azure Blob Storage**: It provides cost-effective storage for static content, logs, and backups with integrated redundancy and access control.
+
+**Azure Active Directory (Azure AD):** It is centralized identity and access management, allowing seamless integration with Microsoft services and enhanced security.
+
+**Azure Monitor & Application Insights:** Provides end-to-end visibility into application performance, error tracking, and real-time monitoring.
+
 This approach ensures a scalable, resilient, and cost-optimized solution.
 
 

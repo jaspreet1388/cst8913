@@ -47,6 +47,17 @@ Each microservice will run independently and communicate using REST APIs, Azure 
 Each component of the monolithic app will be replaced with Azure-native services to enhance scalability, performance, and cost efficiency.
 
 **Service Mapping:**
+### **Service Mapping: Monolithic vs. Refactored Azure Implementation**
+
+| **Functionality**      | **Current Monolithic Implementation**     | **Refactored Azure Service**                         | **Key Benefits** |
+|----------------------|-----------------------------------|------------------------------------------|--------------|
+| **Frontend Hosting**  | Hosted inside a VM | Azure App Service (Static Web Apps) | Managed hosting with auto-scaling |
+| **Backend Hosting**   | ASP.NET API running in a VM | Azure App Service (API Backend) | Scalable and managed API hosting |
+| **Database**         | SQL Server running on a VM | Azure SQL Database | High availability with automated backups |
+| **Background Jobs**  | Windows Services / Task Scheduler | Azure Functions (Timer/Event Triggered) | Serverless execution, cost efficiency |
+| **File Storage**      | Stored within the VM | Azure Blob Storage | Cost-effective, durable storage for static content |
+| **Authentication**   | Custom user authentication within the app | Azure Active Directory (Azure AD) & Managed Identity | Secure authentication with SSO integration |
+| **Logging & Monitoring** | Logs stored in local files | Azure Monitor & Application Insights | Centralized, real-time monitoring and analytics |
 Functionality	Current Monolithic Implementation	Refactored Azure Service	Key Benefits
 Frontend Hosting inside the VM	Azure App Service (Static Web Apps)	Managed hosting, auto-scaling
 Backend Hosting	ASP.NET API running in the VM	Azure App Service (API Backend), auto-scaling

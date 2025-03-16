@@ -1,7 +1,7 @@
 # Budgets and Alerts in Azure
 
 ## Overview
-This document provides a guide on setting up **Budgets and Alerts** in **Azure Cost Management + Billing**. It includes a budget limit of **$50/month** and alert thresholds at **50% ($25)** and **90% ($45)**.
+This document gives the **Budgets and Alerts** in **Azure Cost Management + Billing** for the lab. It includes a budget limit of **$50/month** and alert thresholds at **50% ($25)** and **90% ($45)**.
 
 ## Budget Configuration
 - **Budget Name:** `cst8913_monthly_budget_jaspreet`

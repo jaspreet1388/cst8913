@@ -22,26 +22,14 @@ This document provides a guide on setting up **Budgets and Alerts** in **Azure C
 
 ## Screenshots
 ### Budget Alert Settings
-![Budget Alert Settings](1_budget.png)
+![1_budget](https://github.com/user-attachments/assets/0f99a31d-f7c7-43cd-9858-c5b2338e996a)
+
 
 ### Budget Summary
-![Budget Summary](2_budget.png)
+![2_budget](https://github.com/user-attachments/assets/1604629d-7f97-4dab-8f8b-91de8e7272cf)
 
-## Instructions
-1. Go to **Azure Portal** → **Cost Management + Billing**.
-2. Navigate to **Budgets** and click **+ Add**.
-3. Enter budget details:
-   - Set **Amount** to `$50`.
-   - Choose **Reset Period: Monthly**.
-4. Set **Alert Conditions** for **50% ($25)** and **90% ($45)**.
-5. Add email recipients to receive notifications.
-6. Save the budget and validate in the **Budgets** section.
 
----
-### **Notes**
-- Ensure that `azure-noreply@microsoft.com` is added to your allow list to avoid missing alerts.
-- Modify the expiration date if necessary for longer tracking.
 
-### **Repository Use**
-This file is structured for GitHub documentation. Simply upload `Budgets_and_Alerts.md` along with the screenshots (`1_budget.png` and `2_budget.png`) to your repository.
+
+
 

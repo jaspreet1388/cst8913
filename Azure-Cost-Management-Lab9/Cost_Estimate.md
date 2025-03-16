@@ -1,6 +1,6 @@
 # Microsoft Azure Estimate
 
-## Your Estimate
+## Cost  Estimate
 
 | Service Category | Service Type          | Custom Name | Region  | Description | Estimated Monthly Cost | Estimated Upfront Cost |
 |-----------------|----------------------|-------------|---------|-------------|------------------------|------------------------|

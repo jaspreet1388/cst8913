@@ -13,11 +13,11 @@ It provides a scalable foundation for future growth and innovation.
 
 ### Key Characteristics
 
-**Scalability:** It is capable of growing with respect to organizational needs, hence, ensuring seamless expansion of cloud resources
-**Modularity:**  It supports integration and customization of additional components based on the requirement, thus leading to a modular architecture
-**Security and Compliance:** It ensures high security standards by utilising built-in policies, identity management, and monitoring
-**Automation:** Infrastructure as Code (IaC) tools to automate deployment is used which ensure consistency and repeatability
-**Governance:** It is capable of enforcing organizational rules through policy enforcement and role-based access controls (RBAC).
+- **Scalability:** It is capable of growing with respect to organizational needs, hence, ensuring seamless expansion of cloud resources
+- **Modularity:**  It supports integration and customization of additional components based on the requirement, thus leading to a modular architecture
+- **Security and Compliance:** It ensures high security standards by utilising built-in policies, identity management, and monitoring
+- **Automation:** Infrastructure as Code (IaC) tools to automate deployment is used which ensure consistency and repeatability
+- **Governance:** It is capable of enforcing organizational rules through policy enforcement and role-based access controls (RBAC).
 
 ---
 
@@ -75,9 +75,9 @@ It is well suited for integration of hybrid or multi cloud environments where th
 
 If I were a cloud architect designing a landing zone for a large enterprise, the most important considerations would be:
 
-**Governance and Compliance:** Ensuring that the environment is secure and adheres to both industry standards and organizational policies is paramount.
-**Scalability and Modularity:** The design must support future expansion, multi-region deployment, and integration with new services.
-**Operational Efficiency:** Including tools for monitoring, logging, and automation to support DevOps practices.
-**User Enablement:** Providing clear documentation, reusable templates, and onboarding support so that the development teams can quickly and safely deploy their applications.
+- **Governance and Compliance:** Ensuring that the environment is secure and adheres to both industry standards and organizational policies is paramount.
+- **Scalability and Modularity:** The design must support future expansion, multi-region deployment, and integration with new services.
+- **Operational Efficiency:** Including tools for monitoring, logging, and automation to support DevOps practices.
+- **User Enablement:** Providing clear documentation, reusable templates, and onboarding support so that the development teams can quickly and safely deploy their applications.
 
 ---

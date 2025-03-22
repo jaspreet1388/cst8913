@@ -1,7 +1,9 @@
 # Cloud Landing Zones
+
 ## 1. Concept of a Cloud Landing Zone
 
 A **Cloud Landing Zone** is a pre-configured, secure, and scalable environment in the cloud that acts as the foundational framework for cloud adoption. It provides the necessary infrastructure, governance, networking, security controls, and operational tools required for workloads and applications to be deployed reliably and consistently.
+
 ### Purpose in Cloud Migration
 
 - Accelerate cloud adoption by standardizing initial cloud environments.

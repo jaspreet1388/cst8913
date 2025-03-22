@@ -25,7 +25,7 @@ It provides a scalable foundation for future growth and innovation.
 
 ### Platform Landing Zones
 
-Platform landing zones ensure centralization of goverance and operational tools by serving as a foundation for hosting multiple application workloads. It provides core shared services like networking, identity, and monitoring.
+Platform landing zones serves as a building block for hosting multiple application workloads by ensuring centralization of goverance and operational tools. It provides core shared services like networking, identity, and monitoring.
 
 **Example Use Case:** An enterprise setting up its first cloud footprint with shared infrastructure services such as Azure AD, centralized logging, and connectivity to on-premises networks.
 
@@ -41,14 +41,14 @@ Application Landing Zones are prefered when the focus is to meet the specific te
 
 | Operating Model    | Description                                                                 | Pros                                    | Cons                                     |
 |--------------------|-----------------------------------------------------------------------------|-----------------------------------------|------------------------------------------|
-| **Centralized**     | All governance, operations, and services are managed centrally.              | Simplified governance, cost efficiency | Less flexibility for individual teams    |
-| **Decentralized**   | Teams manage their own resources and policies independently.                 | High autonomy and flexibility          | Risk of inconsistencies and duplication  |
-| **Enterprise**      | Hybrid model combining central governance with team autonomy.                | Balanced control and flexibility       | Requires strong coordination             |
-| **Distributed**     | Separate legal/business entities managing their own environments             | Best for multi-business units or M&A   | Complex integration and governance       |
+| **Centralized**  |Central management of all governance, operations, and services.            | Simplified governance, cost efficiency    | Less flexibility for individual teams    |
+| **Decentralized**| Resources and policies are managed by individual teams without any dependency.   | High autonomy and flexibility      | Risk of inconsistencies and duplication  |
+| **Enterprise**   | It supports central governance with team autonomy through hybrid model           | Balanced control and flexibility    | It requires effective coordination       |
+| **Distributed**  | Independent management of lega/business entities within their own enviornments    | Best for multi-business units or M&A   | Complex integration and governance       |
 
 ### Best Model for Data Center Migration
 
-The **Enterprise model** is best suited for migrating an entire data center. It allows centralized control over security, identity, and compliance while enabling individual business units or app teams to innovate and manage their own environments. This model ensures a balance between scalability, standardization, and agility.
+In case of migrating an entire data center, the best suited model is the **Enterprise model** as it allows centralized control over security, identity, and compliance while enabling individual business units or app teams to innovate and manage their own environments. This model ensures a balance between scalability, standardization, and agility.
 
 ---
 
@@ -56,17 +56,18 @@ The **Enterprise model** is best suited for migrating an entire data center. It 
 
 ### Azure Landing Zone Accelerator
 
-A Microsoft-provided, opinionated implementation of a landing zone. It includes pre-defined policies, templates, and architectures aligned with the Cloud Adoption Framework.
+Cloud service provider like Microsoft designed opinionated implementation of a landing zone. It includes Cloud Adoption Framework which is aligned and equipped with pre-defined policies, templates, and architectures
 
 **When to Use:**  
-It is ideal for organizations new to Azure or need a quick and compliant start. It is best for regulated industries or when best practices must be followed.
+Organizations which are new to Azure or need a quick and compliant start can utilize the capabilities offered by Azure landing zone accerlator. In addition, it can be benficial for regulated industries or when best practices must be followed.
 
 ### Customization
 
 A tailored landing zone built from scratch or extended from a base model to meet specific business or technical requirements.
 
 **When to Use:**  
-Suitable for mature cloud teams with unique requirements or complex legacy systems. Also used when integrating with hybrid or multi-cloud environments.
+
+It is well suited for integration of hybrid or multi cloud environments where the cloud teams are mature with unique requirements or complex legacy systems. 
 
 ---
 
@@ -77,6 +78,6 @@ If I were a cloud architect designing a landing zone for a large enterprise, the
 **Governance and Compliance:** Ensuring that the environment is secure and adheres to both industry standards and organizational policies is paramount.
 **Scalability and Modularity:** The design must support future expansion, multi-region deployment, and integration with new services.
 **Operational Efficiency:** Including tools for monitoring, logging, and automation to support DevOps practices.
-**User Enablement:** Providing clear documentation, reusable templates, and onboarding support so development teams can quickly and safely deploy their applications.
+**User Enablement:** Providing clear documentation, reusable templates, and onboarding support so that the development teams can quickly and safely deploy their applications.
 
 ---

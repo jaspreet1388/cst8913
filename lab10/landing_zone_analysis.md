@@ -1,4 +1,4 @@
-# Cloud Landing Zones – Assignment
+# Cloud Landing Zones
 
 ## 1. Concept of a Cloud Landing Zone
 
